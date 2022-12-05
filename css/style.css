@@ -1,0 +1,30 @@
+body {
+    height: 100vh;
+}
+
+/* HEADER */
+
+header {
+    background-color: #add8e6;
+    height: 80px;
+}
+
+.lll {
+    display: flex;
+    width: 100%;
+}
+
+.lll>.logo,
+.lll>.login {
+    width: 100px;
+    border: 2px dashed black;
+    background-color: #daa520;}
+
+.lll>.links {
+    flex-grow: 1;
+    border: 2px dashed black;
+    background-color: #daa520;
+    text-align: center;
+}
+
+/* PARTE BLU */
